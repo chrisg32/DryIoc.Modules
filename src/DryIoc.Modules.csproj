@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Chris Gonzales</Copyright>
+    <Authors>Chris Gonzales</Authors>
+    <Company />
+    <Product />
+    <Description>Simple package for adding modularity DryIoc.</Description>
+    <PackageProjectUrl>https://github.com/chrisg32/DryIoc.Modules</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/chrisg32/DryIoc.Modules</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DryIoc.dll" Version="4.0.7" />
+  </ItemGroup>
+
+</Project>
